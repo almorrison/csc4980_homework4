@@ -16,8 +16,6 @@ contract Courses {
 
 
   function setInstructor(address _address, uint _age, string memory _fName, string memory _lName) public {
-    //var instructor = instructors[_address];
-
     instructors[_address].age = _age;
     instructors[_address].fName = _fName;
     instructors[_address].lName = _lName;    
